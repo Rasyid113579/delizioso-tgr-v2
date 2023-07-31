@@ -36,7 +36,7 @@
         </div>
         <div id="banner">
             <div class="mx-auto">
-                <img id="banner1" src="./gambar/banner1.png">
+                <img id="banner1" style="height: 50vh; object-fit: cover;" src="./gambar/banner1.png">
             </div>
         </div>
     </div>
