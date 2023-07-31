@@ -12,7 +12,7 @@ export default defineNuxtConfig({
       link: [
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap'
+          href: 'https://fonts.googleapis.com/css2?family=Righteous&display=swap'
         }, 
         {
           rel: 'icon',
@@ -21,11 +21,23 @@ export default defineNuxtConfig({
         },
         {
           rel: 'stylesheet',
-          href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css'
+          href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css'
         }, 
         {
           rel: 'canonical',
-          href: 'https://getbootstrap.com/docs/5.3/examples/carousel/'
+          href: 'https://getbootstrap.com/docs/5.3/examples/navbars-offcanvas/'
+        }, 
+        {
+          rel: 'preconnect',
+          href: 'https://fonts.googleapis.com'
+        },
+        {
+          rel: 'preconnect',
+          href: 'https://fonts.gstatic.com'
+        },
+        {
+          rel: 'stylesheet',
+          href: 'https://unpkg.com/aos@2.3.1/dist/aos.css'
         }
       ],
       script: [
@@ -35,6 +47,10 @@ export default defineNuxtConfig({
         }, 
         {
           src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js',
+          type: 'text/javascript'
+        },
+        {
+          src: 'https://unpkg.com/aos@2.3.1/dist/aos.js',
           type: 'text/javascript'
         }
       ],
