@@ -19,10 +19,10 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./app.vue">Whatsapp</a>
+                            <a class="nav-link" aria-current="page" href="https://wa.me/6287877108198">Whatsapp</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./products.vue">Instagram</a>
+                            <a class="nav-link" aria-current="page" href="www.instagram.com/delizioso.tgr">Instagram</a>
                         </li>
                     </ul>
                 </div>
@@ -269,21 +269,18 @@
             </div>
         </div>
     </div>
-    <div id="footer" class="pb-3 pt-4">
+    <div id="footer" class="pb-2 pt-4">
         <div class="container">
             <div class="row" style="font-weight: bold;">
-                <div class="col-md-6 txt-md-start">
+                <div id="divsosmed" class="col-md-6 txt-md-end d-flex align-items-center">
                     <h3 style="font-weight: bolder;">DELIZIOSO.TGR</h3>
-                    <br>
-                    <p style="font-size: 18px;">Puri Beta Jl. Taman Kenangan<br>Boulevard No.111, Kecamatan Larangan Utara, Bali</p>
-                    <p style="font-size: 15px;">Phone : (+62) 838877777521</p>
                 </div>
                 <div class="col-md-6 txt-md-end">
-                    <div id="sosmed" class="text-end">
+                    <div id="sosmed" class="text-end my-2">
                         <img src="./gambar/instagram.png" class="img-fluid mx-2">
                         <img src="./gambar/whatsapp2.png" class="img-fluid">
                     </div>
-                    <div class="text-end my-2">
+                    <div class="text-end my-3">
                         <p>Copyright &copy; 2022, All rights reserved.</p>
                     </div>
                 </div>
@@ -306,8 +303,6 @@
 }
 #banner1 {
     width: 100%;
-}
-@media (min-width: 1200px) {
 }
 /* NAVBAR OFF CANVAS */
 .bd-placeholder-img {
